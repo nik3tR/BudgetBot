@@ -6,7 +6,7 @@ import json
 
 # 1. Configuration
 url = "https://FINCAN-POC.snowflakecomputing.com/api/v2/databases/TAX_POLICY/schemas/GST/agents/TESTAGENT:run"
-api_key = "{TEST_KEY}" # Replace with your actual JWT
+api_key = f"{TEST_KEY}" # Replace with your actual JWT
 
 # 2. Define Headers
 headers = {
